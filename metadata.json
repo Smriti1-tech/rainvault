@@ -1,0 +1,6 @@
+{
+  "name": "RainVault",
+  "description": "A rainwater harvesting tracker that converts rainfall and roof area measurements into 'Water Wealth' and impact scores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

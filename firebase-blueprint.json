@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile and Settings",
+      "description": "Stores user setup data like roof area and tank capacity.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "roofArea": { "type": "number", "description": "Roof area in square feet" },
+        "tankCapacity": { "type": "number", "description": "Tank capacity in liters" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "roofArea", "tankCapacity"]
+    },
+    "RainfallEntry": {
+      "title": "Rainfall Entry",
+      "description": "Individual record of rainfall in mm.",
+      "type": "object",
+      "properties": {
+        "amountMm": { "type": "number" },
+        "date": { "type": "string", "format": "date-time" },
+        "waterCollected": { "type": "number", "description": "Liters calculated from rainfall" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["amountMm", "date", "waterCollected"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User configuration and profile"
+    },
+    "/users/{userId}/entries/{entryId}": {
+      "schema": "RainfallEntry",
+      "description": "Collection of rainfall data points"
+    }
+  }
+}
