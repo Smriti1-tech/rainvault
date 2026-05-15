@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# RainVault
 
-# Run and deploy your AI Studio app
+## Overview
+RainVault is a smart rainwater harvesting and water management platform designed to help users monitor rainfall and track stored water efficiently. The application promotes sustainable water conservation using cloud-based technologies.
 
-This contains everything you need to run your app locally.
+## Features
+- User Authentication
+- Rainfall Monitoring
+- Water Storage Tracking
+- Firebase Cloud Database
+- Responsive Web Interface
+- Android App Support using WebView
 
-View your app in AI Studio: https://ai.studio/apps/bbfe6b6e-4157-49ef-b5a3-ada412f6d0e5
+## Technologies Used
+- React
+- TypeScript
+- Firebase
+- Firestore
+- HTML
+- CSS
+- JavaScript
+- Kotlin
+- Android Studio
+- Netlify
 
-## Run Locally
+## Live Demo
+https://fanciful-quokka-9fcfc0.netlify.app/
 
-**Prerequisites:**  Node.js
+## GitHub Repository
+https://github.com/Smriti1-tech/rainvault
 
+## Future Enhancements
+- AI-based rainfall prediction
+- IoT sensor integration
+- Notification system
+- Advanced analytics dashboard
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Project Goal
+The main goal of RainVault is to encourage efficient water conservation and provide users with a simple digital platform for managing rainwater resources.
