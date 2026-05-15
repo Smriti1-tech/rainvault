@@ -37,3 +37,6 @@ https://github.com/Smriti1-tech/rainvault
 
 ## Project Goal
 The main goal of RainVault is to encourage efficient water conservation and provide users with a simple digital platform for managing rainwater resources.
+
+## Deployment
+The application is deployed using Netlify and integrated with Firebase services for authentication and database management.
